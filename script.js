@@ -1,5 +1,7 @@
-let a = +prompt("Write first number, please:");
-let b = +prompt("Write second number, please:");
+const a = +prompt("Write first number, please:");
+const b = +prompt("Write second number, please:");
+
+// alert(sum(a,b))
 
 function sum(a, b) {
 	alert(a + b);
