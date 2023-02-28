@@ -1,24 +1,23 @@
 const a = +prompt("Write first number, please:");
 const b = +prompt("Write second number, please:");
 
-// alert(sum(a,b))
 
 function sum(a, b) {
-	alert(a + b);
+	return a + b;
 }
-sum(a, b);
+alert(sum(a, b));
 
 function minus(a, b) {
-	alert(a - b);
+	return a - b;
 }
-minus(a, b);
+alert(minus(a, b));
 
 function multiply(a, b) {
-	alert(a * b);
+	return a * b;
 }
-multiply(a, b);
+alert(multiply(a, b));
 
 function divide(a, b) {
-    alert(a / b);
+    return a / b;
 }
-divide(a, b);
+alert(divide(a, b));
